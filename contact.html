@@ -5,7 +5,36 @@
 </head>
 <body>
 <header>
-    <h1>Contact me.</h1>    
-</header>
+    <h1>Contact details.</h1>
+    </header>
+<br />
+<main>
+<p>Feel free to contact me using the information on this page!</p>
+<br />
+
+<form>
+    <fieldset>
+        <legend>Personal details</legend>
+
+        <label for="firstname">First name</label>
+        <input id="firstname" type="'text">
+        <label for="emailaddress">Email address</label>
+        <input type="email" name="email">
+        </fieldset>
+    <br />
+    <br />
+    <fieldset>
+        <label for="reasonforcontact">Reason for contact</label>
+        <input type="radio" name="reasonforcontact" value="projects" checked="checked">Projects
+        <input type="radio" name="reasonforcontact" value="contact information">Contact information
+        <input type="radio" name="reasonforcontact" value="jobs">Jobs 
+    </fieldset>
+    <br />
+    <fieldset>
+        <label for="other">Other:</label>
+        <input id="reasonforcontact" type="text">
+    </fieldset>
+</form>
+</main>
 </body>
 </html>
