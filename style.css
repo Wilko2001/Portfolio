@@ -21,5 +21,10 @@ body {
 #font {
 
     font-family: didot;
+}
+
+#lists ul,ol {
+
+    color:whitesmoke;
 
 }
