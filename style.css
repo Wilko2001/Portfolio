@@ -28,3 +28,16 @@ body {
     color:whitesmoke;
 
 }
+
+#a:link,a:visited {
+
+color:whitesmoke;
+
+}
+
+
+#a:hover,a:active {
+
+color: grey
+
+} 
