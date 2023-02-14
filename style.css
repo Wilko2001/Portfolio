@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+ }
+
+
 h1 {
 
     color: whitesmoke;
+    font-size: 30px;
+    font-family: Shrikhand, sans-serif;
 }
+
 
 h2 {
 
@@ -61,4 +74,17 @@ p {
     left: 20px;
     z-index: -1;
  }
+ 
+ a {
 
+    text-decoration: none;
+ }
+
+ .span-element {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+ }
+
+ 
