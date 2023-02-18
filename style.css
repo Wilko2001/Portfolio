@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
 
 
-body, html {
+body,
+html {
 
     font-family: salsa, sans-serif;
     color: whitesmoke;
@@ -19,13 +20,11 @@ h1 {
     font-family: Shrikhand, sans-serif;
 }
 
-.flexbox-container {}
-
-header {
+#header {
 
     background-color: rgb(22, 23, 90);
-    header-top: -26px;
     height: 100px;
+    font-family: shrikhand;
 }
 
 
@@ -50,16 +49,17 @@ h3 {
     font-family: Shrikhand, sans-serif;
 }
 
-#font {
-
-    font-family: didot;
-}
-
-#lists ul,
+.lists ul,
 ol {
 
     color: whitesmoke;
 
+}
+
+#listheaders {
+
+    background-color: rgb(22, 23, 90);
+    height: 50px;
 }
 
 #a:link,
@@ -131,6 +131,18 @@ a {
     border-width: 3px;
 }
 
+#leeds~figcaption {
+
+    border: double rgb(57, 58, 121) 10px;
+    display: inline;
+}
+
+#dog~figcaption {
+
+    border: double rgb(57, 58, 121) 10px;
+    display: inline;
+}
+
 #dog {
     float: left;
     overflow: hidden;
@@ -147,7 +159,6 @@ a {
     padding: 25px;
     font-size: 16px;
     border: none;
-    float: right;
 }
 
 
