@@ -240,7 +240,8 @@ a {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
+    text-align: left;
 }
 
 .buttons:hover {
@@ -254,6 +255,12 @@ td {
     border-radius: 5px;
     border-color: rgb(65, 212, 200);
 }
+
+.buttons label {
+
+    font-size: 20px;
+}
+
 
 .box {
     height: 100px;
