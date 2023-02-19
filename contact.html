@@ -3,11 +3,14 @@
 
 <head>
     <title>contact page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>Contact details.</h1>
+        <div id="header">
+            <h1>Contact details.</h1>
+        </div>
     </header>
     <br />
     <main>
@@ -17,25 +20,35 @@
         <form>
             <fieldset>
                 <legend>Personal details</legend>
-
-                <label for="firstname">First name</label>
-                <input id="firstname" type="'text">
-                <label for="emailaddress">Email address</label>
-                <input type="email" name="email">
+                <div id="details-boxes">
+                    <label for="firstname">First name</label>
+                    <input id="firstname" type="'text">
+                    <label for="emailaddress">Email address</label>
+                    <input type="email" name="email">
+                </div>
             </fieldset>
             <br />
             <br />
             <fieldset>
-                <label for="reasonforcontact">Reason for contact</label>
-                <input type="radio" name="reasonforcontact" value="projects" checked="checked">Projects
-                <input type="radio" name="reasonforcontact" value="contact information">Contact information
-                <input type="radio" name="reasonforcontact" value="jobs">Jobs
+                <div class="buttons">
+                    <label for="reasonforcontact">Reason for contact:</label>
+                    <input type="radio" name="reasonforcontact" value="projects" checked="checked">Projects
+                    <input type="radio" name="reasonforcontact" value="contact information">Contact information
+                    <input type="radio" name="reasonforcontact" value="jobs">Jobs
+                </div>
             </fieldset>
             <br />
             <fieldset>
-                <label for="other">Other:</label>
-                <input id="reasonforcontact" type="text">
+                <div id="details-boxes">
+                    <label for="other">Other:</label>
+                    <input id="reasonforcontact" type="text">
+                </div>
             </fieldset>
+            <br />
+            <br />
+            <div class="submitbtn">
+                <input type="submit" value="Submit" style="height:30px; width:100px">
+            </div>
         </form>
     </main>
 </body>
