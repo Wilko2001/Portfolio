@@ -11,6 +11,7 @@ html {
     padding: 0;
     margin: 0;
     background-image: linear-gradient(to right top, #09796f, #00747b, #006d86, #00658d, #005c8e, #08568e, #174f8e, #26488c, #1f438e, #193e8f, #143890, #113290);
+    min-height: 100vh; 
 }
 
 
@@ -18,11 +19,6 @@ h1 {
     color: whitesmoke;
     font-size: 30px;
     font-family: Shrikhand, sans-serif;
-}
-
-.projectsfont {
-
-    color: red;
 }
 
 #header {
