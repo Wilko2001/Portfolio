@@ -118,7 +118,10 @@ a {
 
 .selfie {
 
+    position: absolute;
+    right: 20px;
     float: right;
+    bottom: 500px;
     overflow: hidden;
     height: 300px;
     border: 5px solid #030000;
@@ -157,6 +160,7 @@ a {
     padding: 10;
     border-radius: 50%;
     border-width: 3px;
+    width: 300px;
 }
 
 .dropbtn {
