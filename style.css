@@ -94,14 +94,19 @@ p {
     position: relative;
 }
 
-footer::after {
+footer::first-line {
     content: "";
     background-color: rgb(69, 123, 204);
     height: 20px;
     width: 50%;
-    position: absolute;
+    position: relative;
     left: 20px;
     z-index: -1;
+}
+
+footer:hover {
+
+    color: pink;
 }
 
 a {
