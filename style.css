@@ -11,7 +11,7 @@ html {
     padding: 0;
     margin: 0;
     background-image: linear-gradient(to right top, #09796f, #00747b, #006d86, #00658d, #005c8e, #08568e, #174f8e, #26488c, #1f438e, #193e8f, #143890, #113290);
-    min-height: 100vh; 
+    min-height: 100vh;
 }
 
 
@@ -26,19 +26,16 @@ h1 {
     background-color: rgb(22, 23, 90);
     height: 100px;
     font-family: shrikhand;
-}
-
-#projects-header {
-
-    color: red;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 figcaption {
 
     float: left;
 }
-
-
 
 h2 {
 
@@ -97,8 +94,6 @@ p {
     position: relative;
 }
 
-/* the above code is to do with positioning, and allows us to use the z-index property below, we will get to positioning a bit later on */
-
 footer::after {
     content: "";
     background-color: rgb(69, 123, 204);
@@ -118,7 +113,7 @@ a {
     height: 100px;
     width: 100px;
     color: white;
-    background-color: blue;
+    background-color: rgb(30, 30, 90);
 }
 
 .selfie {
@@ -169,14 +164,15 @@ a {
     color: white;
     padding: 25px;
     font-size: 16px;
-    border: none;
+    border: none;;
 }
 
 
 .dropdown {
-    position: relative;
     display: inline-block;
-    float: right;
+    position: absolute;
+    top: 50px;
+    right: 100px;
 }
 
 .dropdown-content {
