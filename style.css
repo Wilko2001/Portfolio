@@ -129,7 +129,7 @@ a {
     bottom: 500px;
     overflow: hidden;
     height: 300px;
-    border: 5px solid #030000;
+    border: 5px solid rgb(202, 157, 187);
     padding: 10x;
     border-radius: 50%;
     border-width: 3px;
