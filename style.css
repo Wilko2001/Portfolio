@@ -10,8 +10,8 @@ html {
     font-size: 20px;
     padding: 0;
     margin: 0;
-    background-image: linear-gradient(to right top, #09796f, #00747b, #006d86, #00658d, #005c8e, #08568e, #174f8e, #26488c, #1f438e, #193e8f, #143890, #113290);
     min-height: 100vh;
+    background: linear-gradient(60deg,#c9b2c5,#afb6e5);
 }
 
 
@@ -23,7 +23,7 @@ h1 {
 
 #header {
 
-    background-color: rgb(22, 23, 90);
+    background-color: rgb(122, 119, 167);
     height: 100px;
     font-family: shrikhand;
     position: sticky;
@@ -66,7 +66,7 @@ ol {
 
 #listheaders {
 
-    background-color: rgb(22, 23, 90);
+    background-color: rgb(122, 119, 167);
     height: 50px;
 }
 
@@ -81,13 +81,13 @@ a:visited {
 #a:hover,
 a:active {
 
-    color: rgb(84, 225, 250);
+    color: rgb(255, 198, 238);
 
 }
 
 li::marker {
 
-    color: #26488c;
+    color: pink;
 }
 
 p {
@@ -96,7 +96,7 @@ p {
 
 footer::first-line {
     content: "";
-    background-color: rgb(69, 123, 204);
+    background-color: rgb(134, 48, 151);
     height: 20px;
     width: 50%;
     position: relative;
@@ -118,7 +118,7 @@ a {
     height: 100px;
     width: 100px;
     color: white;
-    background-color: rgb(30, 30, 90);
+    background-color: rgb(118, 118, 206);
 }
 
 .selfie {
@@ -156,13 +156,13 @@ a {
 
 #leeds~figcaption {
 
-    border: double rgb(57, 58, 121) 10px;
+    border: double rgb(202, 157, 187) 10px;
     display: inline;
 }
 
 #dog~figcaption {
 
-    border: double rgb(57, 58, 121) 10px;
+    border: double rgb(202, 157, 187) 10px;
     display: inline;
 }
 
@@ -178,7 +178,7 @@ a {
 }
 
 .dropbtn {
-    background-color: rgb(36, 36, 102);
+    background-color: rgb(92, 89, 136);
     color: white;
     padding: 25px;
     font-size: 16px;
@@ -204,7 +204,7 @@ a {
 }
 
 .dropdown-content a {
-    color: rgb(36, 36, 102);
+    color:rgb(202, 157, 187);
     padding: 12px 16px;
     font-family: shrikhand, sans-serif;
     display: block;
@@ -212,7 +212,7 @@ a {
 
 .dropdown-content a:hover {
 
-    background-color: rgb(66, 154, 212);
+    background-color: rgb(150, 208, 235);
 }
 
 .dropdown:hover .dropdown-content {
@@ -221,7 +221,7 @@ a {
 
 .dropdown:hover .dropbtn {
 
-    background-color: rgb(36, 36, 102);
+    background-color: rgb(107, 104, 155);
 }
 
 #details-boxes label {
@@ -229,9 +229,9 @@ a {
     padding: 5px;
     border-radius: 10px;
     margin: 5px auto;
-    border: 1px solid #6cd3bd;
-    background-color: #6cd3bd;
-    box-shadow: 1px 2px 1px 2px rgb(151, 223, 166);
+    border: 1px solid #9fc4e1;
+    background-color: #9fc4e1;
+    box-shadow: 1px 2px 1px 2px whitesmoke;
     color: whitesmoke;
     outline: none;
     font-size: 18px;
@@ -306,7 +306,7 @@ th,
 td {
     border: 3px groove;
     border-radius: 5px;
-    border-color: rgb(65, 212, 200);
+    border-color: rgb(202, 157, 187);
     min-width: 500px;
     min-height: 500px;
     text-align: center;
