@@ -148,7 +148,7 @@ a {
     float: left;
     overflow: hidden;
     height: 300px;
-    border: 5px solid #030000;
+    border: 5px solid rgb(202, 157, 187);
     padding: 10;
     border-radius: 50%;
     border-width: 3px;
@@ -170,7 +170,7 @@ a {
     float: left;
     overflow: hidden;
     height: 300px;
-    border: 10px solid #030000;
+    border: 10px solid rgb(202, 157, 187);
     padding: 10;
     border-radius: 50%;
     border-width: 3px;
