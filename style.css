@@ -112,6 +112,16 @@ footer:hover {
     color: pink;
 }
 
+.pcontact p::first-line {
+    content:"";
+    background-color: rgb(241, 129, 223);
+    height: 20px;
+    width: 50%;
+    position: relative;
+    left: 20px;
+    z-index: -1;
+}
+
 legend {
 
     height: 50px;
