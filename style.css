@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
 
-
+* {
+    margin: 0;
+    padding: 0;
+}
 body,
 html {
 
@@ -141,6 +144,12 @@ a {
     position: absolute;
     right: 19%;
     top: 56%;
+}
+
+.container-column {
+
+    display: flex;
+    flex-direction: column;
 }
 
 
