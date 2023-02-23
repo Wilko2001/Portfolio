@@ -307,9 +307,18 @@ a {
     }
 }
 
-.submitbtn {
+.submitbtndiv {
 
     text-align: center;
+    
+}
+
+.submitbtn {
+
+    font-family: salsa, sans-serif;
+    color: whitesmoke;
+    background-color: rgb(202, 157, 187);
+    font-size: 20px;
 }
 
 .buttons {
